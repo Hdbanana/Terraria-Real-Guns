@@ -1,0 +1,6 @@
+Real Guns is created to add real guns into Terraria.
+
+Current added guns -
+
+FG42 - 1942
+MP5A3 - 1966
