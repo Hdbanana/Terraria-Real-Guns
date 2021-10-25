@@ -4,3 +4,7 @@ Current added guns -
 
 FG42 - 1942
 MP5A3 - 1966
+
+UPDATE 0.2
+
+Added M134 - 1960
