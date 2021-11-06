@@ -22,7 +22,7 @@ namespace RealGuns.Items
 			item.height = 20;
 			item.useTime = 6;
 			item.useAnimation = 6;
-			item.shootSpeed = 10;
+			item.shootSpeed = 10f;
             item.useStyle = 5;
             item.knockBack = 6;
 			item.value = 100000;
