@@ -1,4 +1,0 @@
-displayName = Real Guns
-author = Hdbanana
-version = 0.4
-homepage = https://github.com/Hdbanana/Terraria-Real-Guns
