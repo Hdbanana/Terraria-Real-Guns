@@ -5,10 +5,12 @@ Current added guns -
 FG42 - 1942
 MP5A3 - 1966
 M134 - 1960
+Glock 34 - 1998
 
-UPDATE 0.3
+UPDATE 0.4
 
-Added Glock 34 - 1998
-updated bullet velocity to correctly work
+Added Chauchat - 1907
+
+
 
 
