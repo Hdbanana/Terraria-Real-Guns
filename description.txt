@@ -1,0 +1,16 @@
+Real Guns is created to add real guns into Terraria.
+
+Current added guns -
+
+FG42 - 1942
+MP5A3 - 1966
+M134 - 1960
+Glock 34 - 1998
+
+UPDATE 0.4
+
+Added Chauchat - 1907
+
+
+
+
