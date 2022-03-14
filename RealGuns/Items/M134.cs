@@ -28,7 +28,7 @@ namespace RealGuns.Items
 			item.knockBack = 4;
 			item.value = 750000;
 			item.rare = 11;
-			item.UseSound = SoundID.Item31;
+			item.UseSound = SoundID.Item41;
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Bullet;
 			item.noMelee = true;
@@ -62,11 +62,9 @@ namespace RealGuns.Items
 				Projectile.NewProjectile(position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, type, damage, knockBack, player.whoAmI);
 			}
 			return false;
-
-
+			
 		}
 	
         public override bool ConsumeAmmo(Player player) => Main.rand.NextFloat() >= .40f;
-
     }
 }

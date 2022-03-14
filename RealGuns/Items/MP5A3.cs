@@ -27,7 +27,7 @@ namespace RealGuns.Items
             item.knockBack = 3;
 			item.value = 50000;
 			item.rare = 4;
-            item.UseSound = SoundID.Item31;
+            item.UseSound = SoundID.Item40;
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Bullet;
 			item.noMelee = true;
