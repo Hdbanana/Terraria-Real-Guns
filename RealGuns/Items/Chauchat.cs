@@ -49,9 +49,16 @@ namespace RealGuns.Items
 
 		public override Vector2? HoldoutOffset()
 		{
-			return new Vector2(-3, -3);
+			return new Vector2(-5, -3);
 			return base.HoldoutOffset();
 		}
 
-    }
+		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
+		{
+			Vector2 perturbedspeed = new Vector2(speedX, speedY).RotatedByRandom(MathHelper.ToRadians(2));
+			speedX = perturbedspeed.X;
+			speedY = perturbedspeed.Y;
+			return base.Shoot(player, ref position, ref speedX, ref speedY, ref type, ref damage, ref knockBack);
+		}
+	}
 }

@@ -6,10 +6,15 @@ FG42 - 1942
 MP5A3 - 1966
 M134 - 1960
 Glock 34 - 1998
+Chauchat - 1907
 
-UPDATE 0.4
+UPDATE 0.4.1
 
-Added Chauchat - 1907
+updated textures
+Fg42 and Chauchat have bullet spread
+Celebrating 10k downloads!
+
+
 
 
 
