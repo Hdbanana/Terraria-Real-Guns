@@ -33,6 +33,7 @@ namespace RealGuns.Items
 			item.useAmmo = AmmoID.Bullet;
 			item.noMelee = true;
 			item.shoot = ProjectileID.Bullet;
+			item.scale = 1.5f;
 
 		}
 
