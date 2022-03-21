@@ -13,6 +13,7 @@ UPDATE 0.4.2
 
 Added Martini henry - 1870
 changed M134 recipe
+FG42 now bigger
 
 UPDATE 0.4.1
 
