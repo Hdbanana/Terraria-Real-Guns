@@ -39,7 +39,7 @@ namespace RealGuns.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.LunarBar, 30);
+			recipe.AddIngredient(ItemID.LunarBar, 50);
 			recipe.AddIngredient(ItemID.FragmentVortex, 20);
 			recipe.AddTile(tileID: TileID.LunarCraftingStation);
 			recipe.SetResult(this);

@@ -7,6 +7,13 @@ MP5A3 - 1966
 M134 - 1960
 Glock 34 - 1998
 Chauchat - 1907
+Martini henry - 1870
+
+UPDATE 0.4.2
+
+Added Martini henry - 1870
+changed M134 recipe
+FG42 now bigger
 
 UPDATE 0.4.1
 
