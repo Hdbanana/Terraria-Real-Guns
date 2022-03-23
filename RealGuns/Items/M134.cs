@@ -33,6 +33,7 @@ namespace RealGuns.Items
 			item.useAmmo = AmmoID.Bullet;
 			item.noMelee = true;
 			item.shoot = ProjectileID.Bullet;
+			item.crit = 20;
 
 		}
 
@@ -48,7 +49,7 @@ namespace RealGuns.Items
 
 		public override Vector2? HoldoutOffset()
 		{
-			return new Vector2(5, 10);
+			return new Vector2(5, 9);
 			return base.HoldoutOffset();
 		}
 

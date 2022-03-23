@@ -12,18 +12,17 @@ namespace RealGuns.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Glock 34");
-            Tooltip.SetDefault("Austrian pistol - 1998");
+            Tooltip.SetDefault("Austrian Pistol - 1998");
         }
 
         public override void SetDefaults()
         {
-            item.damage = 12;
+            item.damage = 8;
             item.ranged = true;
             item.width = 40;
             item.height = 40;
-            item.useTime = 10;
             item.useAnimation = 2;
-            item.reuseDelay = 10;
+            item.reuseDelay = 14;
             item.shootSpeed = 7f;
             item.useStyle = 5;
             item.knockBack = 2;
@@ -52,25 +51,5 @@ namespace RealGuns.Items
             speedY = perturbedspeed.Y;
             return base.Shoot(player, ref position, ref speedX, ref speedY, ref type, ref damage, ref knockBack);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 }
