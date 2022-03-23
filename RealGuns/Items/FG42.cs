@@ -17,7 +17,7 @@ namespace RealGuns.Items
 
 		public override void SetDefaults() 
 		{
-			item.damage = 40;
+			item.damage = 26;
 			item.ranged = true;
 			item.width = 40;
 			item.height = 20;
@@ -27,14 +27,14 @@ namespace RealGuns.Items
             item.useStyle = 5;
             item.knockBack = 6;
 			item.value = 100000;
-			item.rare = 4;
+			item.rare = 5;
             item.UseSound = SoundID.Item31;
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Bullet;
 			item.noMelee = true;
 			item.shoot = ProjectileID.Bullet;
-			item.scale = 1.5f;
-
+			item.scale = 1.3f;
+			item.crit = 8;
 		}
 
 		public override void AddRecipes() 
@@ -42,7 +42,7 @@ namespace RealGuns.Items
 			ModRecipe recipe = new ModRecipe(mod);
             recipe.AddRecipeGroup("IronBar", 10);
 			recipe.AddIngredient(ItemID.Wood, 30);
-			recipe.AddIngredient(ItemID.TitaniumBar, 10);
+			recipe.AddIngredient(ItemID.SoulofMight, 10);
 			recipe.AddTile(tileID: TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
@@ -58,7 +58,7 @@ namespace RealGuns.Items
 
 		public override Vector2? HoldoutOffset()
         {
-			return new Vector2(-7, -5);
+			return new Vector2(-9, -5);
             return base.HoldoutOffset();
         }
 

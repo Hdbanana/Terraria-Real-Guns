@@ -34,6 +34,7 @@ namespace RealGuns.Items
 			item.noMelee = true;
 			item.shoot = ProjectileID.Bullet;
 			item.scale = 1.5f;
+			item.crit = 12;
 
 		}
 
@@ -49,7 +50,7 @@ namespace RealGuns.Items
 
 		public override Vector2? HoldoutOffset()
 		{
-			return new Vector2(-5, -3);
+			return new Vector2(-4, -2);
 			return base.HoldoutOffset();
 		}
 
