@@ -1,5 +1,5 @@
 Real Guns is created to add real guns into Terraria.
-
+Wiki and more on mod homepage
 Current added guns -
 
 FG42 - 1942
@@ -8,6 +8,16 @@ M134 - 1960
 Glock 34 - 1998
 Chauchat - 1907
 Martini henry - 1870
+vz. 61 - 1959
+
+UPDATE 0.4.3
+
+BIG balanacing update
+Added vz. 61 - 1959
+Added critical chance to FG42, MP5A3, M134
+Readjusted hold point for most guns
+Lowered damage for FG42, Glock 34, MP5A3
+Changed recipe for MP5A3 and FG42
 
 UPDATE 0.4.2
 
@@ -21,7 +31,23 @@ updated textures
 Fg42 and Chauchat have bullet spread
 Celebrating 10k downloads!
 
+UPDATE 0.4
 
+Added Chauchat - 1907
+
+UPDATE 0.3
+
+Added Glock 34 - 1998
+Updated bullet velocity to correctly work
+
+UPDATE 0.2
+
+Added M134 - 1960
+
+UPDATE 0.1.1
+
+Added FG42 - 1942
+Added MP5A3 - 1966
 
 
 
